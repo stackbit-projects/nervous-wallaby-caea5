@@ -28,8 +28,8 @@ sections:
     title: Features
     features:
       - title: Feature 1
-        content: >-
-         Test.
+        content: |
+          Test this and get it right
         align: left
         image: images/feature.svg
         image_alt: Feature 1 placeholder image
