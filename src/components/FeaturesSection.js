@@ -30,9 +30,7 @@ export default class FeaturesSection extends React.Component {
                       <h2 className="section__title">{_.get(feature, 'title', null)}</h2>
                     )}
                     {_.get(feature, 'content', null) && (
-                    <div className="section__copy">
-                      {markdownify(_.get(feature, 'content', null))}
-                    </div>
+                    
                     )}
                     {_.get(feature, 'actions', null) && (
                     <div className="section__actions btn-group">
